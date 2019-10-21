@@ -9,7 +9,7 @@ public class Person {
         this.age=age;
     }
     public String toString(){
-        return "Name: "+name+",Age:"+age;
+        return "Name: "+ name +",Age:"+age;
     }
     public void changeDetails(String name,int age){
         this.name=name;
