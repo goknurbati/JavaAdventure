@@ -18,6 +18,18 @@ public class BookController {
 
     public static ArrayList<Books> books = new ArrayList<Books>();
 
+    public void addBook(){
+        books.add(Books);
+    }
+    public void updateBook(){
+
+    }
+    public void deleteBook(){
+
+    }
+    public void getAllBook(){
+
+    }
 
     public static void main(String[] args){
 
