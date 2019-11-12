@@ -19,7 +19,6 @@ public class Factorial {
         }
         else{
                 result = calculateFactorialWithRecursive(n - 1) * n;
-
             }
             return result;
         }
