@@ -11,6 +11,7 @@ public class Factorial {
             result=result*i;
         }
         return result;
+        
     }
     public static long calculateFactorialWithRecursive(int n) {
         long result = 1;
