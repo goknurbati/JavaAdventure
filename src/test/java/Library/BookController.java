@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 public class BookController {
 
-    String addedBook;
-    String removedBook;
-    int bookCount;
-    int book;
+   public static String addedBook;
+   public static String removedBook;
+   public static int bookCount;
+   public static int book;
 
-    public BookController(String addedBook,String removedBook,int bookCount, int book){
+    public BookController(){
         this.addedBook=addedBook;
         this.removedBook=removedBook;
         this.bookCount=bookCount;
@@ -19,7 +19,7 @@ public class BookController {
     public static ArrayList<Books> books = new ArrayList<Books>();
 
     public void addBook(){
-        books.add(Books);
+
     }
     public void updateBook(){
 
@@ -31,8 +31,10 @@ public class BookController {
 
     }
 
-    public static void main(String[] args){
-
+    public static class Main{
+        public static void main(String[] args){
+            Books books = new Books();
+        }
     }
 
 

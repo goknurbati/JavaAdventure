@@ -7,7 +7,7 @@ public class Books {
     String type;
     String publisher;
 
-    public Books(int bookID, String bookname, String author, String type, String bookName){
+    public Books(){
         this.bookID=bookID;
         this.bookName=bookName;
         this.author= author;
@@ -45,9 +45,9 @@ public class Books {
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
-
-    public static void main(String[] args){
-      Books books=new Books(1,"bookname","author","type","publisher");
-        System.out.println(books.toString());
+    public static class Main{
+        public static void main(String[] args){
+            BookController controller = new BookController();
+    }
     }
 }
