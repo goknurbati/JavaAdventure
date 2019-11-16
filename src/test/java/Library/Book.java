@@ -40,14 +40,22 @@ public class Book {
         this.type = type;
     }
     public String getPublisher() {
+
         return publisher;
     }
     public void setPublisher(String publisher) {
+
         this.publisher = publisher;
     }
+
     public static class Main{
         public static void main(String[] args){
+
             BookController controller = new BookController();
+            controller.addBook();
+            controller.getAllBook();
+            controller.deleteBook();
+            controller.updateBook();
         }
     }
 }
