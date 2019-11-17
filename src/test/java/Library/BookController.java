@@ -42,6 +42,11 @@ public class BookController {
         public static void main(String[] args){
 
             Book book = new Book();
+            book.getBookID();
+            book.getBookName();
+            book.getAuthor();
+            book.getType();
+            book.getPublisher();
         }
     }
 

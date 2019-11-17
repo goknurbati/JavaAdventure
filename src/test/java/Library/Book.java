@@ -17,33 +17,33 @@ public class Book {
     public int getBookID(){
         return bookID;
     }
-
     public void setBookID(int bookID) {
+
         this.bookID = bookID;
     }
     public String getBookName(){
         return bookName;
     }
-    public void setBookName(String bookName) {
+    public void setBookName(String bookName){
         this.bookName = bookName;
     }
     public String getAuthor(){
         return author;
     }
-    public void setAuthor(String author) {
+    public void setAuthor(String author){
         this.author = author;
     }
-    public String getType() {
+    public String getType(){
         return type;
     }
-    public void setType(String type) {
+    public void setType(String type){
         this.type = type;
     }
-    public String getPublisher() {
+    public String getPublisher(){
 
         return publisher;
     }
-    public void setPublisher(String publisher) {
+    public void setPublisher(String publisher){
 
         this.publisher = publisher;
     }
