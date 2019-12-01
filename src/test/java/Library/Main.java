@@ -1,5 +1,7 @@
 package Library;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args){
@@ -13,6 +15,18 @@ public class Main {
         controller.addBook(book2);
         controller.addBook(book3);
         controller.addBook(book4);
+
+        ArrayList<Book> books=controller.getBooks();
+
+        controller.updateBook(new Book(4,"python","asd","asd","asd"));
+
+        controller.deleteBook(new Book(1,"asd","asd","asd","asd"));
+
+        System.out.println(controller.getById(1).toString());
+        /*for(int i=0;i<books.size();i++){
+            System.out.println(books.get(i).getBookID());
+            System.out.println(books.get(i).getBookName());
+        }*/
     }
 
 }

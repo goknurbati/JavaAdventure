@@ -55,5 +55,10 @@ public class Book {
         this.publisher = publisher;
     }
 
+    @Override
+    public String toString(){
+        return "BookID: "+this.bookID +"BookName: "+ this.bookName;
+    }
+
 
 }
