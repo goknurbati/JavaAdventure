@@ -13,7 +13,6 @@ public class Commercial extends Customer{
     public String getCompanyName() {
         return companyName;
     }
-
     public void setCompanyName(String companyName) {
         this.companyName = companyName;
     }

@@ -1,15 +1,26 @@
 package bank;
 
+import java.util.ArrayList;
+
 public class Customer {
     private int customerID;
     private String accountOpeningDate;
     private long account;
 
-    public Customer(int customerID, String accountOpeningDate, long account) {
+    public Customer(int customerID, String accountOpeningDate, long account
+    ) {
         this.customerID=customerID;
         this.accountOpeningDate=accountOpeningDate;
         this.account=account;
     }
+    private ArrayList<Customer> customers = new ArrayList<Customer>();
+
+    public int addAccount(Customer customer){
+        customers.add(customer);
+        return customer.getCustomerID();
+    }
+
+
     public int getCustomerID() {
         return customerID;
     }
