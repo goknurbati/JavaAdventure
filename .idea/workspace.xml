@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95510396-6adb-4f1c-8548-751f1fd1ff6f" name="Default" comment="add customer">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Coordinate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Coordinate/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstKata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzKata/FirstKata.java" afterDir="false" />
@@ -15,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/xyzCompany/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyzCompany/Developer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyzCompany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyzCompany/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyzCompany/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyzCompany/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xyzCompany/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyzCompany/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,11 @@
       </map>
     </option>
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="goknurbati" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="JavaAdventure" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -52,7 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RestAssuredFramework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HR_MANAGEMENT_SYSTEM_IN_JAVA_WITH_SOURCE_CODE" />
   </component>
   <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -297,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583430339427</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="edit methods">
+      <created>1584815475996</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584815475996</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,33 +324,46 @@
     <MESSAGE value="UpCasting/DownCasting sample" />
     <MESSAGE value="add customer" />
     <MESSAGE value="oop and override" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop and override" />
+    <MESSAGE value="edit methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit methods" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1584800127004">
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1584823475610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584800127004" />
-    <state x="549" y="256" key="Github.ShareDialog" timestamp="1584815245771">
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584823475610" />
+    <state x="339" y="0" key="CommitChangelistDialog2" timestamp="1584815474375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="549" y="256" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584815245771" />
-    <state width="1322" height="217" key="GridCell.Tab.0.bottom" timestamp="1584814573817">
+    <state x="339" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584815474375" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1584818909025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584814573817" />
-    <state width="1322" height="217" key="GridCell.Tab.0.center" timestamp="1584814573817">
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584818909025" />
+    <state x="457" y="230" key="Github.CreatePullRequestDialog" timestamp="1584815673948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584814573817" />
-    <state width="1322" height="217" key="GridCell.Tab.0.left" timestamp="1584814573816">
+    <state x="457" y="230" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1584815673948" />
+    <state x="549" y="256" key="Github.ShareDialog" timestamp="1584815578591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584814573816" />
-    <state width="1322" height="217" key="GridCell.Tab.0.right" timestamp="1584814573817">
+    <state x="549" y="256" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584815578591" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1584825939104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584814573817" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584825939104" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1584825939104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584825939104" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1584825939103">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584825939103" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1584825939104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584825939104" />
     <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1584814573818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -361,14 +384,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584800689088" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1584815482296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584815482296" />
     <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584812733899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584812733899" />
-    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584799916207">
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584823105882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1584799916207" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1584823105882" />
   </component>
   <component name="masterDetails">
     <states>

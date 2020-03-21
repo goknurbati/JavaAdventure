@@ -16,10 +16,17 @@ public class Main {
         //Polimorphism uygularsak downcasting yapıp instanceof yapmamıza gerek kalmıyor, öyle yaparsak kod procedural oluyor değil mi?
         Employee [] emps = {new Employee("asd","asd",12, 10000), new Developer("fıtıfıtı","bıdıbıdı",10,15000),new Manager("qweqwe","qweqwe",07,25000)};
         for(Employee empy:emps){
+
+            //Metodları bi türlü gösteremiyorum. Çalıştırdığımda true - Branch: null dönüyor sadece.
+            //Developer-Manager classları içerisinede developer ve employee newlediğim zaman stack over flow hatası alıyorum.
             empy.getSalary();
+
+            empy.addEmployee(empy);
+            
             empy.getDepartment(); //id - team - project
             empy.getTraining(); //title - branch
             empy.getPerformance(); // title - team - project -- name - surname
+
         }
     }
     /*public static void Salary(Employee emp){

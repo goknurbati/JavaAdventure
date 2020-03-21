@@ -1,7 +1,6 @@
 package xyzCompany;
 
 public class Developer extends Employee {
-
     private String project;
     private String title;
     private String team;
