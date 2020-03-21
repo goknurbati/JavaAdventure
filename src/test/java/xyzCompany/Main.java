@@ -1,18 +1,38 @@
 package xyzCompany;
 
 public class Main {
+
     public static void main (String args []){
-        Employee emp = new Employee("asd","asd",12);
 
-        Developer developer = new Developer("goknur","bati",123);
+        //Employee emp = new Employee("asd","asd",12, 10000);
 
-        developer.setTitle("junior developer");
-        showDetails(developer);
-        performanceAssessment(developer);
-        trainingProcess(developer);
-        getSalary(developer);
+        //Developer developer = new Developer("goknur","bati",123,15000);
+
+        //Manager manager = new Manager ("meryem","alay",01,25000);
+
+       /* developer.setTitle("junior developer");
+        showDetails(developer);*/
+
+        //Polimorphism uygularsak downcasting yapıp instanceof yapmamıza gerek kalmıyor, öyle yaparsak kod procedural oluyor değil mi?
+        Employee [] emps = {new Employee("asd","asd",12, 10000), new Developer("fıtıfıtı","bıdıbıdı",10,15000),new Manager("qweqwe","qweqwe",07,25000)};
+        for(Employee empy:emps){
+            empy.getSalary();
+            empy.getDepartment(); //id - team - project
+            empy.getTraining(); //title - branch
+            empy.getPerformance(); // title - team - project -- name - surname
+        }
     }
-
+    /*public static void Salary(Employee emp){
+        if(emp instanceof Developer){
+            Developer developer= (Developer)emp;
+            System.out.println(developer.getSalary());
+        }
+        else if(emp instanceof Manager){
+            Manager manager = (Manager)emp;
+            System.out.println(manager.getSalary());
+        }
+        else System.out.println(emp.getSalary());
+    }*/
     public static void showDetails(Employee emp){
         if(emp instanceof Developer) {
             Developer dev = (Developer)emp;
@@ -24,8 +44,7 @@ public class Main {
         }
         else System.out.println(emp.getName()+emp.getSurname());
     }
-
-    public static void performanceAssessment(Employee emp) {
+  /*  public static void performanceAssessment(Employee emp) {
         if(emp instanceof Developer){
             Developer dev= (Developer)emp;
             System.out.println(dev.getTitle()+dev.getProject());
@@ -35,8 +54,8 @@ public class Main {
             System.out.println(manager.getBranch()+manager.getDepartment());
         }
         else System.out.println(emp.getName()+emp.getSurname()+emp.getDepartment());
-    }
-    public static void trainingProcess(Employee emp){
+    }*/
+    /*public static void trainingProcess(Employee emp){
         if(emp instanceof Developer){
             Developer dev = (Developer)emp;
             System.out.println(dev.getDepartment());
@@ -46,21 +65,7 @@ public class Main {
             System.out.println(manager.getBranch());
         }
         else System.out.println(emp.getName()+emp.getSurname()+emp.getDepartment());
-    }
-
-    public static void getSalary(Employee emp){
-        if(emp instanceof Developer){
-            Developer developer= (Developer)emp;
-            System.out.println(developer.getSalary());
-        }
-        else if(emp instanceof Manager){
-            Manager manager = (Manager)emp;
-            System.out.println(manager.getSalary());
-        }
-        else System.out.println(emp.getSalary());
-    }
-
-
+    }*/
 
 }
 

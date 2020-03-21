@@ -5,44 +5,43 @@ public class Employee {
     private String surname;
     private int id;
     private String department;
+    private String training;
+    private String performance;
+    private int score;
     private double salary=3000;
 
-    public Employee (String name,String surname, int id){
+    public Employee(String name, String surname, int id, double salary){
         this.name = name;
         this.surname = surname;
         this.id = id;
+        this.salary= salary;
     }
-
     public String getName() {
         return name;
     }
-
     public String getSurname() {
         return surname;
     }
-
     public int getId() {
         return id;
+    }
+    public double getSalary() {
+        return salary;
     }
 
     public String getDepartment() {
         return department;
     }
-
-    public double getSalary() {
-        return salary;
+    public String getTraining() {
+        return training;
     }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public String getPerformance() {
+        return performance;
     }
-
     @Override
     public String toString() {
         return name + "asdasd" + surname + "qweqwe" + id + 123123;
     }
-
-
 }
 
 
