@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/xyzCompany/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyzCompany/Developer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyzCompany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyzCompany/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyzCompany/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyzCompany/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xyzCompany/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyzCompany/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,8 +171,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.BookController$Main" />
         <item itemvalue="Application.SecondKata" />
       </list>
@@ -307,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584815475996</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add new methods for employee - addEmployee/updateEmployee/deletedEmployee">
+      <created>1584826061705</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1584826061705</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,17 +333,23 @@
     <MESSAGE value="add customer" />
     <MESSAGE value="oop and override" />
     <MESSAGE value="edit methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit methods" />
+    <MESSAGE value="add new methods for employee - addEmployee/updateEmployee/deletedEmployee" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new methods for employee - addEmployee/updateEmployee/deletedEmployee" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1584823475610">
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1585159657240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584823475610" />
-    <state x="339" y="0" key="CommitChangelistDialog2" timestamp="1584815474375">
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1360.0.1360.768@0.0.1366.728" timestamp="1585159657240" />
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585076629920" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1584969898416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584815474375" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584969898416" />
+    <state x="382" y="0" key="CommitChangelistDialog2" timestamp="1584826060908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="382" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584826060908" />
     <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1584818909025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -348,22 +362,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="549" y="256" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584815578591" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1584825939104">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1585162867724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584825939104" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1584825939104">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728/-1360.0.1360.768@0.0.1366.728" timestamp="1585162867724" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585143909284" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1585162867724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584825939104" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1584825939103">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728/-1360.0.1360.768@0.0.1366.728" timestamp="1585162867724" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585143909283" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1585162867724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584825939103" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1584825939104">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728/-1360.0.1360.768@0.0.1366.728" timestamp="1585162867724" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585143909283" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1585162867724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584825939104" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728/-1360.0.1360.768@0.0.1366.728" timestamp="1585162867724" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585143909284" />
     <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1584814573818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -384,14 +402,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584800689088" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1584815482296">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1584826070099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584815482296" />
-    <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584812733899">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584826070099" />
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1585157258118">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584812733899" />
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1360.0.1360.768@0.0.1366.728" timestamp="1585157258118" />
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585070939929" />
+    <state x="65" y="0" key="new project wizard" timestamp="1584971977028">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728/-1360.0.1360.768@0.0.1366.728" timestamp="1584971977028" />
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584823105882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -11,8 +11,8 @@ public class Employee {
     private String department;
     private String training;
     private String performance;
-    private int score;
     private double salary=3000;
+    private double netSalary;
 
     public Employee(String name, String surname, int id, double salary){
         this.name = name;
@@ -74,14 +74,26 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
-
+    public double getNetSalary(){
+        return netSalary;
+    }
+    public void calculateNetSalary(double BONUSPERCENT) {
+        double amount = salary * (BONUSPERCENT / 100);
+        netSalary = salary - amount;
+    }
     public String getDepartment() {
         return department;
     }
     public String getTraining() {
         return training;
     }
-    public String getPerformance() {
+    public String getPerformance(int score) {
+        if(score >= 70){
+            System.out.println("effective");
+        }
+        else if (score == 50) {
+            System.out.println("least effective");
+        }
         return performance;
     }
     @Override
